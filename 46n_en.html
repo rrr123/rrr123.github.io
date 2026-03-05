@@ -76,53 +76,36 @@
             </div>
         </section>
 
-        <!-- 規格與二維碼分享區 -->
-        <div class="grid md:grid-cols-2 gap-8 mb-12">
+        <!-- 規格與說明區 -->
+        <div class="grid grid-cols-1 mb-12">
             <!-- 產品規格列表 -->
-            <section class="bg-slate-900 text-white p-8 rounded-3xl">
-                <h2 class="text-xl font-bold mb-6 flex items-center gap-2">
+            <section class="bg-slate-900 text-white p-8 md:p-12 rounded-3xl">
+                <h2 class="text-xl font-bold mb-8 flex items-center gap-2">
                     <i data-lucide="layers" class="text-emerald-400 w-5 h-5"></i> 
                     <span id="specsTitle">Core Specs & Customization</span>
                 </h2>
-                <ul class="space-y-4">
-                    <li class="flex items-start gap-3 text-sm border-b border-slate-800 pb-3">
-                        <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
-                        <span>65/72 rPET FD + 50/36 46N (S&Z)</span>
-                    </li>
-                    <li class="flex items-start gap-3 text-sm border-b border-slate-800 pb-3">
-                        <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
-                        <span>30/48 rCD + 50/36 46N (S&Z)</span>
-                    </li>
-                    <li class="flex items-start gap-3 text-sm border-b border-slate-800 pb-3">
-                        <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
-                        <span>70/72 rPET FD + 50/36 46N Cotton-Like</span>
-                    </li>
-                    <li class="flex items-start gap-3 text-sm border-0 pb-3">
-                        <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
-                        <span>Options: Semi-Dull / Full-Dull / Bright / Cooling / Anti-UV</span>
-                    </li>
-                </ul>
-            </section>
-
-            <!-- 互動二維碼 -->
-            <section class="bg-emerald-50 p-8 rounded-3xl border border-emerald-100 flex flex-col items-center justify-center text-center">
-                <h2 class="text-emerald-900 font-bold mb-4 flex items-center gap-2">
-                    <i data-lucide="globe" class="w-5 h-5"></i>
-                    <span id="qrTitle">Share via QR Code</span>
-                </h2>
-                <div class="flex gap-4">
-                    <div class="bg-white p-2 rounded-lg shadow-sm">
-                        <img id="qrImgZh" src="" alt="ZH QR" class="w-24 h-24" />
-                        <span class="text-[10px] font-bold text-slate-400 mt-1 block">繁體中文</span>
-                    </div>
-                    <div class="bg-white p-2 rounded-lg shadow-sm">
-                        <img id="qrImgEn" src="" alt="EN QR" class="w-24 h-24" />
-                        <span class="text-[10px] font-bold text-slate-400 mt-1 block">ENGLISH</span>
-                    </div>
+                <div class="grid md:grid-cols-2 gap-x-12 gap-y-4">
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3 text-sm border-b border-slate-800 pb-3">
+                            <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
+                            <span>65/72 rPET FD + 50/36 46N (S&Z)</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-sm border-b border-slate-800 pb-3">
+                            <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
+                            <span>30/48 rCD + 50/36 46N (S&Z)</span>
+                        </li>
+                    </ul>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3 text-sm border-b border-slate-800 pb-3">
+                            <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
+                            <span>70/72 rPET FD + 50/36 46N Cotton-Like</span>
+                        </li>
+                        <li class="flex items-start gap-3 text-sm border-0 pb-3">
+                            <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
+                            <span>Options: Semi-Dull / Full-Dull / Bright / Cooling / Anti-UV</span>
+                        </li>
+                    </ul>
                 </div>
-                <p id="qrDesc" class="text-emerald-700 text-xs mt-4 leading-snug">
-                    Let clients scan the QR Code above<br>to read details in their preferred language.
-                </p>
             </section>
         </div>
 
@@ -182,8 +165,6 @@
                 s3Title: "感官美學",
                 s3Desc: "Cotton-Like 棉感設計，手感柔軟、染色均勻、布面平整。",
                 specsTitle: "核心規格與客製化",
-                qrTitle: "中英分享二維碼",
-                qrDesc: "讓客戶掃描上方 QR Code<br>即可在手機讀取對應語言的內容",
                 appsTitle: "應用領域",
                 app1: "運動機能",
                 app2: "貼身衣物",
@@ -205,8 +186,6 @@
                 s3Title: "Aesthetics",
                 s3Desc: "Cotton-Like touch with excellent dye uniformity and smooth fabric surface.",
                 specsTitle: "Core Specs & Customization",
-                qrTitle: "Share via QR Code",
-                qrDesc: "Let clients scan the QR Code above<br>to read details in their preferred language.",
                 appsTitle: "Applications",
                 app1: "Activewear",
                 app2: "Underwear",
@@ -218,17 +197,6 @@
 
         // 預設語言設為英文
         let currentLang = 'en';
-
-        // 動態生成 QR Code 圖片網址 (使用開源 API)
-        function getQrUrl(language) {
-            let baseUrl = window.location.href.split('?')[0];
-            // 若在本地打開且路徑無效，則使用展示用虛擬網址
-            if (baseUrl.startsWith('file://') || baseUrl === 'about:blank') {
-                baseUrl = 'https://nanya.com/46n';
-            }
-            const text = `${baseUrl}?lang=${language}`;
-            return `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(text)}`;
-        }
 
         // 渲染內容更新函式
         function updateUI() {
@@ -249,8 +217,6 @@
             document.getElementById('s3Desc').textContent = t.s3Desc;
             
             document.getElementById('specsTitle').textContent = t.specsTitle;
-            document.getElementById('qrTitle').textContent = t.qrTitle;
-            document.getElementById('qrDesc').innerHTML = t.qrDesc;
             
             document.getElementById('appsTitle').textContent = t.appsTitle;
             document.getElementById('app1').textContent = t.app1;
@@ -259,10 +225,6 @@
             document.getElementById('app4').textContent = t.app4;
             
             document.getElementById('footerText').textContent = t.footer;
-
-            // 更新 QR 圖片
-            document.getElementById('qrImgZh').src = getQrUrl('zh');
-            document.getElementById('qrImgEn').src = getQrUrl('en');
         }
 
         // 語言切換點擊事件
