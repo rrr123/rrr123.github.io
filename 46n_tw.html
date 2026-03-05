@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>46N 再生加工彈性紗線系列</title>
+    <!-- 引入 Tailwind CSS 進行現代化 UI 佈局 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入 Lucide Icons 圖標庫 -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen bg-neutral-50 font-sans text-slate-800 pb-20">
+
+    <!-- 語言切換浮動按鈕 -->
+    <div class="fixed top-4 right-4 z-50">
+        <button id="langToggleBtn" class="flex items-center gap-2 bg-white/90 backdrop-blur shadow-lg border border-slate-200 px-4 py-2 rounded-full font-bold text-sm hover:bg-white transition-all">
+            <i data-lucide="languages" class="w-4 h-4 text-emerald-600"></i>
+            <span id="langBtnText">Switch to English</span>
+        </button>
+    </div>
+
+    <!-- 頁首區域 -->
+    <header class="bg-slate-900 text-white pt-24 pb-16 px-6 text-center">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-emerald-400 font-bold tracking-[0.2em] text-xs mb-4 uppercase">Nan Ya SAYA Recycling Solutions</div>
+            <h1 id="mainTitle" class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+                46N 再生加工彈性紗線系列
+            </h1>
+            <p id="subTitle" class="text-slate-400 text-lg md:text-xl font-medium">
+                南亞越南公司 纖維事業部
+            </p>
+        </div>
+    </header>
+
+    <!-- 主要內容區 -->
+    <main class="max-w-4xl mx-auto px-6 -mt-8">
+        <!-- 產品概述卡片 -->
+        <section class="bg-white rounded-3xl shadow-xl p-8 md:p-12 mb-8 border border-slate-100">
+            <h2 class="text-2xl font-bold mb-6 text-slate-900 flex items-center gap-2">
+                <i data-lucide="file-text" class="text-emerald-500 w-6 h-6"></i> 
+                <span id="overviewTitle">產品概述</span>
+            </h2>
+            <p id="overviewDesc" class="text-slate-600 leading-relaxed text-lg italic">
+                "46N 為南亞差異化設計之再生聚酯加工彈性紗線。以高品質再生 PET 為基礎原料，結合 S & Z 撚結構技術，開發兼具穩定物性、高回彈性與機能表現的解決方案。確保品質一致性與優良加工適應性，廣泛應用於機能性與時尚布料市場。"
+            </p>
+        </section>
+
+        <!-- 三大優勢區塊 -->
+        <section class="mb-12">
+            <h2 id="strengthsTitle" class="text-2xl font-bold mb-8 px-2">三大核心優勢</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- 優勢 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-slate-50 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="recycle" class="text-emerald-500 w-6 h-6"></i>
+                    </div>
+                    <h3 id="s1Title" class="font-bold text-xl mb-3 text-slate-900">永續價值</h3>
+                    <p id="s1Desc" class="text-slate-500 text-sm leading-relaxed">100% rPET 原料，符合 ESG 趨勢，獲 GRS / OEKO-TEX 100 認證。</p>
+                </div>
+                <!-- 優勢 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-slate-50 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="activity" class="text-blue-500 w-6 h-6"></i>
+                    </div>
+                    <h3 id="s2Title" class="font-bold text-xl mb-3 text-slate-900">技術穩定性</h3>
+                    <p id="s2Desc" class="text-slate-500 text-sm leading-relaxed">S&Z 撚結構技術，高強度、低斷絲率，確保織造高良率。</p>
+                </div>
+                <!-- 優勢 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-slate-50 rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="shirt" class="text-purple-500 w-6 h-6"></i>
+                    </div>
+                    <h3 id="s3Title" class="font-bold text-xl mb-3 text-slate-900">感官美學</h3>
+                    <p id="s3Desc" class="text-slate-500 text-sm leading-relaxed">Cotton-Like 棉感設計，手感柔軟、染色均勻、布面平整。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 規格與二維碼分享區 -->
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+            <!-- 產品規格列表 -->
+            <section class="bg-slate-900 text-white p-8 rounded-3xl">
+                <h2 class="text-xl font-bold mb-6 flex items-center gap-2">
+                    <i data-lucide="layers" class="text-emerald-400 w-5 h-5"></i> 
+                    <span id="specsTitle">核心規格與客製化</span>
+                </h2>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3 text-sm border-b border-slate-800 pb-3">
+                        <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
+                        <span>65/72 rPET FD + 50/36 46N (S&Z)</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm border-b border-slate-800 pb-3">
+                        <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
+                        <span>30/48 rCD + 50/36 46N (S&Z)</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm border-b border-slate-800 pb-3">
+                        <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
+                        <span>70/72 rPET FD + 50/36 46N Cotton-Like</span>
+                    </li>
+                    <li class="flex items-start gap-3 text-sm border-0 pb-3">
+                        <i data-lucide="chevron-right" class="w-4 h-4 text-emerald-500 mt-0.5 shrink-0"></i>
+                        <span>Options: Semi-Dull / Full-Dull / Bright / Cooling / Anti-UV</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 互動二維碼 -->
+            <section class="bg-emerald-50 p-8 rounded-3xl border border-emerald-100 flex flex-col items-center justify-center text-center">
+                <h2 class="text-emerald-900 font-bold mb-4 flex items-center gap-2">
+                    <i data-lucide="globe" class="w-5 h-5"></i>
+                    <span id="qrTitle">中英分享二維碼</span>
+                </h2>
+                <div class="flex gap-4">
+                    <div class="bg-white p-2 rounded-lg shadow-sm">
+                        <img id="qrImgZh" src="" alt="ZH QR" class="w-24 h-24" />
+                        <span class="text-[10px] font-bold text-slate-400 mt-1 block">繁體中文</span>
+                    </div>
+                    <div class="bg-white p-2 rounded-lg shadow-sm">
+                        <img id="qrImgEn" src="" alt="EN QR" class="w-24 h-24" />
+                        <span class="text-[10px] font-bold text-slate-400 mt-1 block">ENGLISH</span>
+                    </div>
+                </div>
+                <p id="qrDesc" class="text-emerald-700 text-xs mt-4 leading-snug">
+                    讓客戶掃描上方 QR Code<br>即可在手機讀取對應語言的內容
+                </p>
+            </section>
+        </div>
+
+        <!-- 應用領域區塊 -->
+        <section class="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 mb-12">
+            <h2 id="appsTitle" class="text-2xl font-bold mb-8">應用領域</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="text-center p-4 bg-slate-50 rounded-2xl">
+                    <div class="text-2xl mb-2">🏃</div>
+                    <div id="app1" class="font-bold text-sm">運動機能</div>
+                </div>
+                <div class="text-center p-4 bg-slate-50 rounded-2xl">
+                    <div class="text-2xl mb-2">👕</div>
+                    <div id="app2" class="font-bold text-sm">貼身衣物</div>
+                </div>
+                <div class="text-center p-4 bg-slate-50 rounded-2xl">
+                    <div class="text-2xl mb-2">🕸️</div>
+                    <div id="app3" class="font-bold text-sm">經緯編布</div>
+                </div>
+                <div class="text-center p-4 bg-slate-50 rounded-2xl">
+                    <div class="text-2xl mb-2">🏠</div>
+                    <div id="app4" class="font-bold text-sm">家飾面料</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="text-center px-6 max-w-2xl mx-auto">
+        <div class="w-12 h-1 bg-emerald-500 mx-auto mb-6"></div>
+        <p id="footerText" class="text-slate-400 text-sm leading-relaxed mb-4">
+            南亞越南公司誠摯邀請產業夥伴攜手合作，共同開創永續未來。
+        </p>
+        <div class="text-[10px] text-slate-300 tracking-widest uppercase">
+            © 2026 Nan Ya Vietnam Fiber Division | Booth 2K-06
+        </div>
+    </footer>
+
+    <!-- JavaScript 交互邏輯 -->
+    <script>
+        // 初始化 Lucide 圖標
+        lucide.createIcons();
+
+        // 中英文資料映射表
+        const content = {
+            zh: {
+                btnText: "Switch to English",
+                title: "46N 再生加工彈性紗線系列",
+                subtitle: "南亞越南公司 纖維事業部",
+                overviewTitle: "產品概述",
+                overview: "46N 為南亞差異化設計之再生聚酯加工彈性紗線。以高品質再生 PET 為基礎原料，結合 S & Z 撚結構技術，開發兼具穩定物性、高回彈性與機能表現的解決方案。確保品質一致性與優良加工適應性，廣泛應用於機能性與時尚布料市場。",
+                strengthsTitle: "三大核心優勢",
+                s1Title: "永續價值",
+                s1Desc: "100% rPET 原料，符合 ESG 趨勢，獲 GRS / OEKO-TEX 100 認證。",
+                s2Title: "技術穩定性",
+                s2Desc: "S&Z 撚結構技術，高強度、低斷絲率，確保織造高良率。",
+                s3Title: "感官美學",
+                s3Desc: "Cotton-Like 棉感設計，手感柔軟、染色均勻、布面平整。",
+                specsTitle: "核心規格與客製化",
+                qrTitle: "中英分享二維碼",
+                qrDesc: "讓客戶掃描上方 QR Code<br>即可在手機讀取對應語言的內容",
+                appsTitle: "應用領域",
+                app1: "運動機能",
+                app2: "貼身衣物",
+                app3: "經緯編布",
+                app4: "家飾面料",
+                footer: "南亞越南公司誠摯邀請產業夥伴攜手合作，共同開創永續未來。"
+            },
+            en: {
+                btnText: "切換至中文",
+                title: "46N Recycled Mechanical Elastic Yarn",
+                subtitle: "Nan Ya Vietnam Fiber Division",
+                overviewTitle: "Product Overview",
+                overview: "46N is a uniquely engineered recycled polyester elastic yarn. Utilizing high-quality rPET as the base material combined with S & Z twist technology, we provide solutions that balance stable physical properties with high elasticity. Designed for consistency and processability in both performance and fashion markets.",
+                strengthsTitle: "Core Advantages",
+                s1Title: "Sustainability",
+                s1Desc: "100% rPET material, ESG compliant, GRS & OEKO-TEX 100 certified.",
+                s2Title: "Technical Stability",
+                s2Desc: "S&Z twist tech ensures high strength, low breakage, and superior yield.",
+                s3Title: "Aesthetics",
+                s3Desc: "Cotton-Like touch with excellent dye uniformity and smooth fabric surface.",
+                specsTitle: "Core Specs & Customization",
+                qrTitle: "Share via QR Code",
+                qrDesc: "Let clients scan the QR Code above<br>to read details in their preferred language.",
+                appsTitle: "Applications",
+                app1: "Activewear",
+                app2: "Underwear",
+                app3: "Warp/Weft",
+                app4: "Home Decor",
+                footer: "Nan Ya Vietnam invites industry partners to co-create a sustainable future."
+            }
+        };
+
+        let currentLang = 'zh';
+
+        // 動態生成 QR Code 圖片網址 (使用開源 API)
+        function getQrUrl(language) {
+            let baseUrl = window.location.href.split('?')[0];
+            // 若在本地打開且路徑無效，則使用展示用虛擬網址
+            if (baseUrl.startsWith('file://') || baseUrl === 'about:blank') {
+                baseUrl = 'https://nanya.com/46n';
+            }
+            const text = `${baseUrl}?lang=${language}`;
+            return `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent(text)}`;
+        }
+
+        // 渲染內容更新函式
+        function updateUI() {
+            const t = content[currentLang];
+            
+            document.getElementById('langBtnText').textContent = t.btnText;
+            document.getElementById('mainTitle').textContent = t.title;
+            document.getElementById('subTitle').textContent = t.subtitle;
+            document.getElementById('overviewTitle').textContent = t.overviewTitle;
+            document.getElementById('overviewDesc').textContent = `"${t.overview}"`;
+            
+            document.getElementById('strengthsTitle').textContent = t.strengthsTitle;
+            document.getElementById('s1Title').textContent = t.s1Title;
+            document.getElementById('s1Desc').textContent = t.s1Desc;
+            document.getElementById('s2Title').textContent = t.s2Title;
+            document.getElementById('s2Desc').textContent = t.s2Desc;
+            document.getElementById('s3Title').textContent = t.s3Title;
+            document.getElementById('s3Desc').textContent = t.s3Desc;
+            
+            document.getElementById('specsTitle').textContent = t.specsTitle;
+            document.getElementById('qrTitle').textContent = t.qrTitle;
+            document.getElementById('qrDesc').innerHTML = t.qrDesc;
+            
+            document.getElementById('appsTitle').textContent = t.appsTitle;
+            document.getElementById('app1').textContent = t.app1;
+            document.getElementById('app2').textContent = t.app2;
+            document.getElementById('app3').textContent = t.app3;
+            document.getElementById('app4').textContent = t.app4;
+            
+            document.getElementById('footerText').textContent = t.footer;
+
+            // 更新 QR 圖片
+            document.getElementById('qrImgZh').src = getQrUrl('zh');
+            document.getElementById('qrImgEn').src = getQrUrl('en');
+        }
+
+        // 語言切換點擊事件
+        document.getElementById('langToggleBtn').addEventListener('click', () => {
+            currentLang = currentLang === 'zh' ? 'en' : 'zh';
+            updateUI();
+            
+            // 更新瀏覽器標題
+            document.title = currentLang === 'zh' ? '46N 再生加工彈性紗線系列' : '46N Recycled Elastic Yarn';
+        });
+
+        // 頁面加載完成後初始執行一次
+        window.onload = updateUI;
+    </script>
+</body>
+</html>
